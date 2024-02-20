@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #Programa que crea un directorio basandose en el anyo que estas cursando en donde luego creara directorios para cada asignatura. 
-echo "Introduce el ano que estas cursando" 
-read ano 
+echo "Introduce el anyo que estas cursando" 
+read anyo 
 mkdir $anyo
-echo "Se ha creado el directorio $ano" 
-cd $ano
+echo "Se ha creado el directorio $anyo" 
+cd $anyo
 
 echo "Introduce el numero de asignaturas que vas a cursar" 
 read numero
